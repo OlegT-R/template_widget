@@ -1,0 +1,76 @@
+{
+  "name": "hiring-template",
+  "author": "Troshagin O.A.",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": "^12.x"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --watchAll=false",
+    "test-w": "react-scripts test -u",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "antd": "^3.19.8",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^5.0.0",
+    "redux-devtools": "^3.5.0",
+    "redux-persist": "^5.10.0",
+    "redux-promise-middleware": "^6.1.0",
+    "reselect": "^4.0.0",
+    "styled-components": "^4.3.1",
+    "type-to-reducer": "^1.1.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/antd": "^1.0.0",
+    "@types/enzyme": "^3.9.4",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/jest": "24.0.13",
+    "@types/node": "12.0.4",
+    "@types/react": "16.8.19",
+    "@types/react-dom": "16.8.4",
+    "@types/react-redux": "^7.1.0",
+    "@types/react-router-dom": "^4.3.3",
+    "@types/redux-devtools": "^3.0.46",
+    "@types/redux-persist": "^4.3.1",
+    "@types/styled-components": "^4.1.16",
+    "@types/uuid": "^3.4.4",
+    "babel-jest": "24.8.0",
+    "babel-plugin-import": "^1.12.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "enzyme-to-json": "^3.3.5",
+    "jest": "24.7.1",
+    "react-scripts": "3.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "ts-node": "^8.2.0",
+    "tslint": "^5.17.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.5.1",
+    "typescript-tslint-plugin": "^0.4.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "peerDependencies": {
+    "jest": "24.x"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

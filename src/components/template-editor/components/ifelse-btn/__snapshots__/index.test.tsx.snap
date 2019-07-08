@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IfElseBtn /> 1`] = `
+<Button
+  block={false}
+  ghost={false}
+  htmlType="button"
+  loading={false}
+  onClick={[Function]}
+  type="dashed"
+>
+  Click to Add: 
+  <styled.span>
+    IF
+  </styled.span>
+  {{some_variable} or expression}
+  <styled.span>
+    THEN
+  </styled.span>
+  {then_value}
+  <styled.span>
+    ELSE
+  </styled.span>
+  {else_value}
+</Button>
+`;

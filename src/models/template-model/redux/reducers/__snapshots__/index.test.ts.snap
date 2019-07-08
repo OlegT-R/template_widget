@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`templates reducers template_reducer/UPDATE 1`] = `
+Object {
+  "testId": Object {
+    "template": Object {
+      "block": Array [
+        Object {
+          "id": "textArea1",
+          "value": "test",
+        },
+      ],
+    },
+  },
+}
+`;

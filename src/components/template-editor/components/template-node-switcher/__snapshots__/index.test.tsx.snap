@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MyComponent /> should render <IfElseBLock /> 1`] = `
+<div>
+  <IfElseBLock
+    key="id"
+    node={
+      Object {
+        "else": Array [
+          Object {
+            "id": "testifElseELSE",
+            "value": "testifElseELSE",
+          },
+        ],
+        "id": "id",
+        "if": Array [
+          Object {
+            "id": "testifElseIF",
+            "value": "testifElseIF",
+          },
+        ],
+        "then": Array [
+          Object {
+            "id": "testifElseTHEN",
+            "value": "testifElseTHEN",
+          },
+        ],
+      }
+    }
+    onDelete={[Function]}
+    onSetActiveTextArea={[Function]}
+    parentNode={
+      Array [
+        Object {
+          "else": Array [
+            Object {
+              "id": "testifElseELSE",
+              "value": "testifElseELSE",
+            },
+          ],
+          "id": "id",
+          "if": Array [
+            Object {
+              "id": "testifElseIF",
+              "value": "testifElseIF",
+            },
+          ],
+          "then": Array [
+            Object {
+              "id": "testifElseTHEN",
+              "value": "testifElseTHEN",
+            },
+          ],
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`<MyComponent /> should render <TextArea /> 1`] = `
+<div>
+  <TextArea
+    key="testTextArea"
+    node={
+      Object {
+        "id": "testTextArea",
+        "value": "TextArea",
+      }
+    }
+    onSetActiveTextArea={[Function]}
+    parentNode={
+      Array [
+        Object {
+          "id": "testTextArea",
+          "value": "TextArea",
+        },
+      ]
+    }
+  />
+</div>
+`;

@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IfElseBLock /> 1`] = `
+<styled.div>
+  <styled.div>
+    <styled.div>
+      <styled.span>
+        If
+      </styled.span>
+      <Styled(Button)
+        onClick={[Function]}
+        size="small"
+        type="danger"
+      >
+        delete
+        <Icon
+          type="delete"
+        />
+      </Styled(Button)>
+    </styled.div>
+    <styled.div>
+      <TextArea
+        key="testifElseIF"
+        node={
+          Object {
+            "id": "testifElseIF",
+            "value": "testifElseIF",
+          }
+        }
+        onSetActiveTextArea={[Function]}
+        parentNode={
+          Array [
+            Object {
+              "id": "testifElseIF",
+              "value": "testifElseIF",
+            },
+          ]
+        }
+      />
+    </styled.div>
+  </styled.div>
+  <styled.div>
+    <styled.div>
+      <styled.span>
+        Then
+      </styled.span>
+    </styled.div>
+    <styled.div>
+      <TextArea
+        key="testifElseTHEN"
+        node={
+          Object {
+            "id": "testifElseTHEN",
+            "value": "testifElseTHEN",
+          }
+        }
+        onSetActiveTextArea={[Function]}
+        parentNode={
+          Array [
+            Object {
+              "id": "testifElseTHEN",
+              "value": "testifElseTHEN",
+            },
+          ]
+        }
+      />
+    </styled.div>
+  </styled.div>
+  <styled.div>
+    <styled.div>
+      <styled.span>
+        Else
+      </styled.span>
+    </styled.div>
+    <styled.div>
+      <TextArea
+        key="testifElseELSE"
+        node={
+          Object {
+            "id": "testifElseELSE",
+            "value": "testifElseELSE",
+          }
+        }
+        onSetActiveTextArea={[Function]}
+        parentNode={
+          Array [
+            Object {
+              "id": "testifElseELSE",
+              "value": "testifElseELSE",
+            },
+          ]
+        }
+      />
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;

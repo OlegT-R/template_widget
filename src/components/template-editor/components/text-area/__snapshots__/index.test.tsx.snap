@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextArea /> 1`] = `
+<TextArea
+  autosize={
+    Object {
+      "minRows": 2,
+    }
+  }
+  onBlur={[Function]}
+  onChange={[Function]}
+  value="textArea"
+/>
+`;

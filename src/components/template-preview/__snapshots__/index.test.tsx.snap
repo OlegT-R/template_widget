@@ -1,0 +1,446 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TemplatePreview /> Component structure: Should contain textarea and 3 inputs 1`] = `
+<TemplatePreview
+  arrVarNames={
+    Array [
+      "var1",
+      "var2",
+      "var12",
+    ]
+  }
+  template={
+    Object {
+      "block": Array [
+        Object {
+          "id": "Block1Start",
+          "value": "Var1{var1}",
+        },
+        Object {
+          "else": Array [
+            Object {
+              "id": "Block2Else",
+              "value": "else2",
+            },
+          ],
+          "id": "IfElse1",
+          "if": Array [
+            Object {
+              "id": "Block2If",
+              "value": "{var2}",
+            },
+          ],
+          "then": Array [
+            Object {
+              "id": "block2",
+              "value": "then{var2}",
+            },
+          ],
+        },
+        Object {
+          "id": "Block1End",
+          "value": "Var12{var12}",
+        },
+      ],
+    }
+  }
+>
+  <styled.div>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bxivhb",
+            "isStatic": true,
+            "lastClassName": "dBPXXn",
+            "rules": Array [
+              "
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  min-height: 200px;
+  margin: 0 auto;
+  position: relative;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bxivhb",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="sc-bxivhb dBPXXn"
+      >
+        <Styled(TextArea)
+          autosize={false}
+          rows={5}
+          value="Var1else2Var12"
+        >
+          <StyledComponent
+            autosize={false}
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-ifAKCX",
+                  "isStatic": true,
+                  "lastClassName": "eLaMHS",
+                  "rules": Array [
+                    "
+  resize: none;
+",
+                  ],
+                },
+                "displayName": "Styled(TextArea)",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-ifAKCX",
+                "target": [Function],
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            rows={5}
+            value="Var1else2Var12"
+          >
+            <TextArea
+              autosize={false}
+              className="sc-ifAKCX eLaMHS"
+              rows={5}
+              value="Var1else2Var12"
+            >
+              <ReactResizeObserver
+                disabled={true}
+                onResize={[Function]}
+              >
+                <textarea
+                  className="ant-input sc-ifAKCX eLaMHS"
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  rows={5}
+                  style={Object {}}
+                  value="Var1else2Var12"
+                />
+              </ReactResizeObserver>
+            </TextArea>
+          </StyledComponent>
+        </Styled(TextArea)>
+        <VariableInputs
+          arrVarNames={
+            Array [
+              "var1",
+              "var2",
+              "var12",
+            ]
+          }
+          onChangeVariable={[Function]}
+        >
+          <styled.div>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-htpNat",
+                    "isStatic": true,
+                    "lastClassName": "ecdxFb",
+                    "rules": Array [
+                      "
+  padding: 10px 0;
+  position: relative;
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-htpNat",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="sc-htpNat ecdxFb"
+              >
+                <styled.span>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-bwzfXH",
+                          "isStatic": true,
+                          "lastClassName": "cFLOXe",
+                          "rules": Array [
+                            "
+  padding-right: 5px;
+  font-size: 16px;
+  font-weight: bold;
+",
+                          ],
+                        },
+                        "displayName": "styled.span",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-bwzfXH",
+                        "target": "span",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <span
+                      className="sc-bwzfXH cFLOXe"
+                    >
+                      Variables:
+                    </span>
+                  </StyledComponent>
+                </styled.span>
+                <Styled(Input)
+                  addonBefore="var1"
+                  key="var1"
+                  onChange={[Function]}
+                >
+                  <StyledComponent
+                    addonBefore="var1"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "Group": [Function],
+                        "Password": [Function],
+                        "Search": [Function],
+                        "TextArea": [Function],
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-bdVaJa",
+                          "isStatic": true,
+                          "lastClassName": "krKcVG",
+                          "rules": Array [
+                            "
+  margin: 5px 5px 0 0;
+  width: 200px;
+",
+                          ],
+                        },
+                        "displayName": "Styled(Input)",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-bdVaJa",
+                        "target": [Function],
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    onChange={[Function]}
+                  >
+                    <Input
+                      addonBefore="var1"
+                      className="sc-bdVaJa krKcVG"
+                      disabled={false}
+                      onChange={[Function]}
+                      type="text"
+                    >
+                      <span
+                        className="sc-bdVaJa krKcVG ant-input-group-wrapper"
+                      >
+                        <span
+                          className="ant-input-wrapper ant-input-group"
+                        >
+                          <span
+                            className="ant-input-group-addon"
+                          >
+                            var1
+                          </span>
+                          <input
+                            className="ant-input"
+                            disabled={false}
+                            onChange={[Function]}
+                            onKeyDown={[Function]}
+                            style={null}
+                            type="text"
+                            value=""
+                          />
+                        </span>
+                      </span>
+                    </Input>
+                  </StyledComponent>
+                </Styled(Input)>
+                <Styled(Input)
+                  addonBefore="var2"
+                  key="var2"
+                  onChange={[Function]}
+                >
+                  <StyledComponent
+                    addonBefore="var2"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "Group": [Function],
+                        "Password": [Function],
+                        "Search": [Function],
+                        "TextArea": [Function],
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-bdVaJa",
+                          "isStatic": true,
+                          "lastClassName": "krKcVG",
+                          "rules": Array [
+                            "
+  margin: 5px 5px 0 0;
+  width: 200px;
+",
+                          ],
+                        },
+                        "displayName": "Styled(Input)",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-bdVaJa",
+                        "target": [Function],
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    onChange={[Function]}
+                  >
+                    <Input
+                      addonBefore="var2"
+                      className="sc-bdVaJa krKcVG"
+                      disabled={false}
+                      onChange={[Function]}
+                      type="text"
+                    >
+                      <span
+                        className="sc-bdVaJa krKcVG ant-input-group-wrapper"
+                      >
+                        <span
+                          className="ant-input-wrapper ant-input-group"
+                        >
+                          <span
+                            className="ant-input-group-addon"
+                          >
+                            var2
+                          </span>
+                          <input
+                            className="ant-input"
+                            disabled={false}
+                            onChange={[Function]}
+                            onKeyDown={[Function]}
+                            style={null}
+                            type="text"
+                            value=""
+                          />
+                        </span>
+                      </span>
+                    </Input>
+                  </StyledComponent>
+                </Styled(Input)>
+                <Styled(Input)
+                  addonBefore="var12"
+                  key="var12"
+                  onChange={[Function]}
+                >
+                  <StyledComponent
+                    addonBefore="var12"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "Group": [Function],
+                        "Password": [Function],
+                        "Search": [Function],
+                        "TextArea": [Function],
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-bdVaJa",
+                          "isStatic": true,
+                          "lastClassName": "krKcVG",
+                          "rules": Array [
+                            "
+  margin: 5px 5px 0 0;
+  width: 200px;
+",
+                          ],
+                        },
+                        "displayName": "Styled(Input)",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-bdVaJa",
+                        "target": [Function],
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    onChange={[Function]}
+                  >
+                    <Input
+                      addonBefore="var12"
+                      className="sc-bdVaJa krKcVG"
+                      disabled={false}
+                      onChange={[Function]}
+                      type="text"
+                    >
+                      <span
+                        className="sc-bdVaJa krKcVG ant-input-group-wrapper"
+                      >
+                        <span
+                          className="ant-input-wrapper ant-input-group"
+                        >
+                          <span
+                            className="ant-input-group-addon"
+                          >
+                            var12
+                          </span>
+                          <input
+                            className="ant-input"
+                            disabled={false}
+                            onChange={[Function]}
+                            onKeyDown={[Function]}
+                            style={null}
+                            type="text"
+                            value=""
+                          />
+                        </span>
+                      </span>
+                    </Input>
+                  </StyledComponent>
+                </Styled(Input)>
+              </div>
+            </StyledComponent>
+          </styled.div>
+        </VariableInputs>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</TemplatePreview>
+`;

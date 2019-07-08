@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VariableInputs /> 1`] = `
+<styled.div>
+  <styled.span>
+    Variables:
+  </styled.span>
+  <Styled(Input)
+    addonBefore="var1"
+    key="var1"
+    onChange={[Function]}
+  />
+  <Styled(Input)
+    addonBefore="var2"
+    key="var2"
+    onChange={[Function]}
+  />
+</styled.div>
+`;

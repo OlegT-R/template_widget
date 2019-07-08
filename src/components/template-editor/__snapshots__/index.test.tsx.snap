@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TemplateEditor /> Test Click Variable 1`] = `
+<textarea
+  className="ant-input"
+  onBlur={[Function]}
+  onChange={[Function]}
+  onKeyDown={[Function]}
+  style={
+    Object {
+      "height": 0,
+      "maxHeight": 9007199254740991,
+      "minHeight": -8,
+      "overflowY": undefined,
+    }
+  }
+  value="Block1Start{var1}"
+/>
+`;

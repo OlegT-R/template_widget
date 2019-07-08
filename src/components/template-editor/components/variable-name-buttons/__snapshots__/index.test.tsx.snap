@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VariableNameBtns /> 1`] = `
+<styled.div>
+  <Styled(Button)
+    key="var1"
+    onClick={[Function]}
+    type="primary"
+  >
+    {var1}
+  </Styled(Button)>
+  <Styled(Button)
+    key="var2"
+    onClick={[Function]}
+    type="primary"
+  >
+    {var2}
+  </Styled(Button)>
+  <Styled(Button)
+    key="var3"
+    onClick={[Function]}
+    type="primary"
+  >
+    {var3}
+  </Styled(Button)>
+</styled.div>
+`;
